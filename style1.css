@@ -1,0 +1,105 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(photos/6aSSMhI-muscle-cars-hd-wallpaper.jpg);
+	background-size: cover;
+    background-position:top center;
+	font-family: sans-serif;
+}
+.loginBox
+{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 320px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.user
+{
+	width: 300px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+    
+	top: calc(-120px/2);
+	right: calc(50% - 150px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 30px;
+	color: #DBEE13;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 03;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 50px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 19px;
+	background:#FC0E07;
+	cursor:progress;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #fff;
+	color: #E52C15;
+	
+}
+.loginBox a
+{
+    
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+    font-style: italic;
+    
+}
+#logo img    {
+    position: absolute;
+    top: 2px;
+    
+        
+  width: 300px;
+    height: 120px;
+  border-radius: 10px;
+  margin-right: 5px;
+    
+  vertical-align: middle ;
+}
